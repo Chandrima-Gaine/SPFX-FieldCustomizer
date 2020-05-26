@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://amaji.sharepoint.com/sites/MyTeam/Lists/Orders/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "d7e3901d-ff99-4b95-a4c2-a0dbd7947a34",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "fieldCustomizer": {
+      "pageUrl": "https://amaji.sharepoint.com/sites/MyTeam/Lists/Orders/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "d7e3901d-ff99-4b95-a4c2-a0dbd7947a34",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
